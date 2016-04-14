@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Reasoning Over Knowlwdge Base</title>
+        <meta name="description" content="">
+        <!-- 
+    	Volton Template
+    	http://www.templatemo.com/preview/templatemo_441_volton
+        -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/templatemo-style.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    
+        <div class="responsive-header visible-xs visible-sm">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="top-section">
+                            <div class="profile-image" style="border-color:#495461">
+                                <img src="img/1_small.png" alt="Volton">
+                            </div>
+                            <div class="profile-content">
+                                <h3 class="profile-title" >Reasoning Over Knowledge Base</h3>
+                                <p class="profile-description">Pro Photography</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="toggle-menu"><i class="fa fa-bars"></i></a>
+                <div class="main-navigation responsive-menu">
+                    <ul class="navigation">
+                        <li><a href="#top"><i class="fa fa-home"></i>Home</a></li>
+                        <li><a href="#about"><i class="fa fa-key"></i>Insights</a></li>
+                        <li><a href="#projects"><i class="fa fa-line-chart"></i>Implementation and Results</a></li>
+                        <li><a href="#contact"><i class="fa fa-lightbulb-o"></i>Conclusions and Applications</a></li>
+                        <li><a href="#contributers"><i class="fa fa-envelope"></i>Contributers</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- SIDEBAR -->
+        <div class="sidebar-menu hidden-xs hidden-sm">
+            <div class="top-section" style="padding-left:80px; padding-bottom:0px">
+                <div class="profile-image" style="border-color:#495461">
+                    <img src="img/1_small.png" style="border:0" alt="Volton">
+                </div>
+                <h3 class="profile-title"style="color:#021D03;">Reasoning Over Knowledge Base</h3>
+
+            </div> <!-- top-section -->
+            <div class="main-navigation">
+                <ul class="navigation">
+                    <li><a href="#top"><i class="fa fa-globe"></i>Home</a></li>
+                    <li><a href="#about"><i class="fa fa-key"></i>Insights</a></li>
+                    <li><a href="#projects"><i class="fa fa-line-chart"></i>Implementation and Results</a></li>
+                    <li><a href="#contact"><i class="fa fa-lightbulb-o"></i>Conclusions and Applications</a></li>
+                    <li><a href="#contributers"><i class="fa fa-link"></i>Contributers</a></li>
+                </ul>
+            </div> <!-- .main-navigation -->
+            <div class="social-icons">
+                <ul>
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                </ul>
+            </div> <!-- .social-icons -->
+        </div> <!-- .sidebar-menu -->
+        
+
+        <div class="banner-bg" id="top">
+            <div class="banner-overlay"></div>
+            <div class="welcome-text">
+                <h2 style="color:#02202F;">Reasoning Over Knowledge Base</h2>
+
+	<p style="color: black"><i class="fa fa-caret-right">&nbsp;</i>
+	The project reimplements the architecture of the paper <a href="http://papers.nips.cc/paper/5028-reasoning-with-neural-tensor-networks-for-knowledge-base-completion.pdf"> Reasoning with Neural Tensor Networks for Knowledge Base Completion </a> in Torch framework, achieving similar accuracy results with an elegant implementation in a modern language. <br> &nbsp;
+		</p>
+                <P style="color: black">  <i class="fa fa-caret-right">&nbsp;</i> The project's goal is of predicting the likely truth of additional​ facts based on existing facts in a KB(knowledge base) and giving the system reasoning capability. For instance, when told that a new species of monkeys has been discovered, a person does not need to find textual​ evidence to know that this new monkey, too, will have legs.</P>
+            </div>
+        </div>
+
+        <!-- MAIN CONTENT -->
+        <div class="main-content">
+            <div class="fluid-container">
+
+                <div class="content-wrapper">
+                
+                    <!-- ABOUT -->
+                    <div class="page-section" id="about">
+                    <div class="row">
+			<div class="col-md-12">
+                            <p class="" >A knowledge base is a representation of factual knowledge which characteristically suffer from incompleteness, in the form of missing edges. The goal is to develop a model that assigns a high likelihood to ("MIT", "located in", "Massachusetts") but a low likelihood of ("MIT", "located in", "Belize"), a model that recognizes that some facts hold purely because of other relations in the KB.</p>
+			<p>&nbsp;</p>			<p>&nbsp;</p>
+			</div>
+                        <div class="col-md-12">
+
+			   <div class="col-md-4 margin-top:50px" style="margin-top:15px">
+                            <p class="" >Socher introduces "Neural Tensor Networks" which differ from regular neural networks due to the way they relate entities directly to one another with the bilinear tensor product, which is the core operation in a Neural Tensor Network.
+</p>
+
+                            <p class="" >The Architecture of this project follows in mainly in  three stages firstly the <strong> Entity Representation </strong> then <strong> the Neural Tensor Network </strong>  and finally <strong> Training </strong> the model </p>
+			   </div>
+
+                           <div class="about-image col-md-8 ">
+                                <img src="img/arc.png" alt="Architecture">
+                           </div>
+			</div>
+
+			<div class="col-md-12">		
+                            	<p>
+					One of the insights from this paper is that entities can be represented as some function of their constituent words, which provides for the sharing of statistical strength between similar entities. For example, "African Elephant" and "Asian Elephant" might have much in common, but previous approaches oftentimes embedded each of these separately. We embed each word ("African", "Asian", and "Elephant") and then build representations for entities as the average of those entities' constituent word vectors.
+			    	</p>
+				<p>
+			Word embedding vectors may be initialized randomly, but the model benefits strongly from using pre-trained word embeddings (e.g. by word2vec) which already have some structure built into them. However, once we have vectors representing words, we pass gradients back to them, meaning that those embeddings are by no means static, or final.
+				</p>
+                            <hr>
+                        </div>
+                    </div> <!-- #about -->
+                    </div>
+                    
+
+
+
+
+                    <!-- PROJECTS -->
+                    <div class="page-section" id="projects">
+                    <div class="row">
+			<div class="col-md-12">
+                            <p class="" >The goal of our approach is to be able to state whether two entities (e1 , e2 ) are in a certain relationship R. For instance, whether the relationship (e1 , R, e2 )  = (Bengal tiger, has part, tail ) is true and with what certainty. To this end, we define a set of parameters indexed by R for each relation’s scoring function. Let e1 , e2 ∈ R be the vector representations (or features) of the two entities. For now we can assume that each value of this vector is randomly initialized to a small uniformly random number.
+</p>
+			<p>&nbsp;</p>
+			<p>The NTN replaces a standard linear neural network layer with a bilinear tensor layer that directly relates the two entity vectors across multiple dimensions. The model computes a score of how likely it is that two entities are in a certain relationship by the following NTN-based function: </p><p><img src="img/eqn.png" class="about-image col-md-6 col-md-offset-3" alt="Equation"> </p> 
+
+			</div>
+                        <div class="col-md-12">
+			   <p>The visualization of the above equation can be seen as:</p> <p>&nbsp;</p>
+                           <div class="about-image col-md-8 col-md-offset-2 ">
+                                <img src="img/ntn.png" alt="Architecture">
+                           </div>
+
+			</div>
+
+			<div class="col-md-12">		
+				<p>
+					<ul class="fa-ul">
+					  <lh class="lead" style="">NTN training aspects and experiment details:</lh>
+					  <li>&nbsp;</li>
+					  <li><i class="fa-li fa fa-angle-right "></i>All models are trained with contrastive max-margin objective functions. The main idea is that each triplet in the training set <br> Ti = (ei1, Ri, ei2 ) should receive a higher score than a triplet in which one of the entities is replaced with a random entity.
+					</li>
+					  <li><i class="fa-li fa fa-angle-right "></i>Each relation has its associated neural tensor net parameters. We call the corrupted triplet as Tci = (ei1 , Ri , ec ), where we sampled entity ec randomly from the set of all entities that can appear at that position in that relation.
+					</li>
+					  <li><i class="fa-li fa fa-angle-right "></i><p>We minimize the following objective function: </p><p>
+<img src="img/obj.png"  alt="Equation" class="about-image" style="margin-bottom:0;"><br> where N is the number of training triplets and we score the correct relation triplet higher than its corrupted one up to a margin of 1.
+ </p> 
+					</li>
+
+					  <li><i class="fa-li fa fa-angle-right "></i>We use mini-batched L-BFGS for optimization which converges to a local optimum of our non-convex objective functionposition in that relation.
+					</li>
+					<li><i class="fa-li fa fa-angle-right "></i>
+Experiments are conducted on both WordNet and FreeBase to predict whether some relations hold using other facts in the database. Our goal is to predict correct facts in the form of relations (e1 , R, e2 )  in the testing data. This could be seen as answering questions such as Does a dog have a tail?, using the scores g(dog, has part, tail) computed by the various models. 
+					</li>
+					<li><i class="fa-li fa fa-angle-right "></i>
+We use the development set to find a threshold TR for each relation such that if g(e1 , R, e2 ) ≥ TR , the relation (e1 , R, e2 )  holds, otherwise it does not hold.
+					</li>
+					<li><i class="fa-li fa fa-angle-right "></i>
+The final accuracy is based on how many triplets are classified correctly.
+					</li>
+					</ul>
+				</p>
+                        </div>
+			<div class="col-md-12">
+				<p class="col-md-12">&nbsp;</p>
+				<p class="col-md-12">&nbsp;</p>
+				<p class="col-md-6"> <br><br><br><br>
+Image on the right is a reasoning example in FreeBase where black lines denote relationships in training, red lines denote relationships the model inferred. The dashed line denotes word vector sharing.
+				</p>
+				<p class="col-md-6">
+				<img src="img/rsn.png"  alt="Reasoning visualization" class="about-image" style="margin-bottom:0;">
+				</p>
+			</div>
+			<div class="col-md-12">
+				<p class="col-md-12">&nbsp;</p>
+				<p class="col-md-12">&nbsp;</p>					
+					<ul class="fa-ul">
+					  <lh class="lead" style="">Results:</lh>
+						<li> Results to be added here </li>
+					</ul>
+			</div>
+                    </div> <!-- #about -->
+		</div>
+                    <hr>
+
+                    <!-- CONTACT -->
+                    <div class="page-section" id="contact">
+
+                    <div class="row">
+			<h2 class="lead">Conclusions</h2>
+			<div class="col-md-12">
+			<ul>
+				<li > <i class="fa fa-caret-right">&nbsp;</i> We introduced Neural Tensor Networks for knowledge base completion. Unlike previous models for predicting relationships using entities in knowledge bases, our model allows mediated interaction of entity vectors via a tensor. The model obtains the highest accuracy in terms of predicting unseen relationships between entities through reasoning inside a given knowledge base. It enables the extension of databases even without external textual resources.
+				</li>
+
+				<li > <i class="fa fa-caret-right">&nbsp;</i> We further show that by representing entities through their constituent words and initializing these word representations using readily available word vectors, performance of all models improves substantially
+				</li>
+				<li> <i class="fa fa-caret-right">&nbsp;</i> The project has many applications in Information Retrieval and Extraction some of which are: <ul class="col-md-6 col-md-offset-1">
+				<li> <i class="fa fa-long-arrow-right">&nbsp;</i>	Link Prediction </li>
+				<li> <i class="fa fa-long-arrow-right">&nbsp;</i>	Semantic Parsing </li>
+				<li> <i class="fa fa-long-arrow-right">&nbsp;</i>	Question Answering </li>
+				<li> <i class="fa fa-long-arrow-right">&nbsp;</i>	Knowledge Base Expansion </li>
+				<li> <i class="fa fa-long-arrow-right">&nbsp;</i>	Named Entity Recognition </li>
+</ul>
+			</ul>
+			</div>
+
+                    </div>
+                    <hr>
+<!-- CONTACT -->
+                    <div class="page-section" id="contributers">
+
+                    <div class="row">
+			<div class="col-md-12">
+			<h2 class="lead">About Project:</h2>
+				This is the major project of course <strong>Information Reterival and Extraction</strong>. The project was done in the team of three members at International Institute of Information Technology - Hyderabad under the guidance of <strong>Ganesh Jawahar </strong> <p><br>&nbsp;</p>
+			</div>
+			<div class="col-md-12">
+			<h2 class="lead">Contributers:</h2>
+			<ul class="col-md-offset-1">
+				
+				<li > <i class="fa fa-caret-right">&nbsp;</i> Shubham Agarwal,&nbsp;&nbsp; IIIT Hyderabad.
+				</li>
+				
+				<li > <i class="fa fa-caret-right">&nbsp;</i> Darshan Jaju,&nbsp;&nbsp; IIIT Hyderabad.
+				</li>
+
+				<li > <i class="fa fa-caret-right">&nbsp;</i> Surbhi Gupta,&nbsp;&nbsp; IIIT Hyderabad.
+				</li>
+			</ul>
+			</div>
+
+                    </div>
+                    <hr>
+
+                    <div class="row" id="footer">
+                        <div class="col-md-12 text-center">
+                            <p class="copyright-text">Copyright &copy; 2084 Company Name</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <script src="js/vendor/jquery-1.10.2.min.js"></script>
+        <script src="js/min/plugins.min.js"></script>
+        <script src="js/min/main.min.js"></script>
+
+    </body>
+</html>
