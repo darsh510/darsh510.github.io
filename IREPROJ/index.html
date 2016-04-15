@@ -6,12 +6,9 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Reasoning Over Knowlwdge Base</title>
+        <title>Reasoning Over Knowledge Base</title>
         <meta name="description" content="">
-        <!-- 
-    	Volton Template
-    	http://www.templatemo.com/preview/templatemo_441_volton
-        -->
+        <!--     	Volton Template http://www.templatemo.com/preview/templatemo_441_volton -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
         <link rel="stylesheet" href="css/normalize.css">
@@ -72,13 +69,13 @@
                 </ul>
             </div> <!-- .main-navigation -->
             <div class="social-icons">
-                <ul>
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-                    <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                <ul class="text-center">
+ 
+                    <li><a href="http://www.slideshare.net/ShubhamAgarwal211/reasoning-over-knowledge-base-60968302/ShubhamAgarwal211/reasoning-over-knowledge-base-60968302"><i class="fa fa-slideshare"></i></a></li>
+                    <li><a href="https://github.com/agarwal-shubham/Reasoning-Over-Knowledge-Base"><i class="fa fa-github"></i></a></li>
+                    <li><a href="https://www.youtube.com/watch?v=s1lzOkC2lxU"><i class="fa fa-youtube"></i></a></li>
+<li><a href="https://www.dropbox.com/sh/ealepl78ldi0joe/AAAwFkuTGqSKv6D6w5x4ENbva?dl=0"><i class="fa fa-dropbox"></i></a></li>
+
                 </ul>
             </div> <!-- .social-icons -->
         </div> <!-- .sidebar-menu -->
@@ -105,6 +102,7 @@
                     <!-- ABOUT -->
                     <div class="page-section" id="about">
                     <div class="row">
+			<h2 class="lead">Insights:</h2>
 			<div class="col-md-12">
                             <p class="" >A knowledge base is a representation of factual knowledge which characteristically suffer from incompleteness, in the form of missing edges. The goal is to develop a model that assigns a high likelihood to ("MIT", "located in", "Massachusetts") but a low likelihood of ("MIT", "located in", "Belize"), a model that recognizes that some facts hold purely because of other relations in the KB.</p>
 			<p>&nbsp;</p>			<p>&nbsp;</p>
@@ -142,6 +140,7 @@
                     <!-- PROJECTS -->
                     <div class="page-section" id="projects">
                     <div class="row">
+			<h2 class="lead">Implementation:</h2>
 			<div class="col-md-12">
                             <p class="" >The goal of our approach is to be able to state whether two entities (e1 , e2 ) are in a certain relationship R. For instance, whether the relationship (e1 , R, e2 )  = (Bengal tiger, has part, tail ) is true and with what certainty. To this end, we define a set of parameters indexed by R for each relation’s scoring function. Let e1 , e2 ∈ R be the vector representations (or features) of the two entities. For now we can assume that each value of this vector is randomly initialized to a small uniformly random number.
 </p>
@@ -198,10 +197,49 @@ Image on the right is a reasoning example in FreeBase where black lines denote r
 			<div class="col-md-12">
 				<p class="col-md-12">&nbsp;</p>
 				<p class="col-md-12">&nbsp;</p>					
-					<ul class="fa-ul">
-					  <lh class="lead" style="">Results:</lh>
-						<li> Results to be added here </li>
-					</ul>
+					  <h3 class="lead" style="">Results:</h3>
+
+						<h3 class="lead">  Accuracy for NTN model on Freebase Database </h3>
+ 
+							 <p class="col-md-8 col-md-offset-4"> Using learned word embeddings </p> <p >
+							 <img class="col-md-8 col-md-offset-2 text-center about-image" src="https://scontent-sin1-1.xx.fbcdn.net/hphotos-xft1/v/t34.0-12/13023610_10206342252941728_890025955_n.png?oh=b43b0442e83a08356281e2aec374f86a&oe=57130D67" /> </p>
+						 	 <p class="col-md-8 col-md-offset-4">Using Random word embeddings </p> <p>
+							 <img class="col-md-8 col-md-offset-2 text-center about-image" src=" https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xaf1/v/t34.0-12/12992162_10206342253021730_369912396_n.png?oh=d1f8bb72b64176e2805e28ace2872e57&oe=5712EE23&__gda__=1460876018_de39c0bd97ee835867eb1f1183aab434" /> </p>
+
+
+
+
+
+						<h3 class="lead col-md-12">Accuracy for NTN model on WordNet Database </h3>
+ 
+							 <p class="col-md-8 col-md-offset-4"> Using learned word embeddings </p> <p >
+							 <img class="col-md-8 col-md-offset-2 text-center about-image" src="https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xfp1/v/t34.0-12/12988183_10206342253061731_1469465899_n.png?oh=bc09dff05c5e4555a55e9d2d7b05bf2f&oe=571307D9&__gda__=1460857420_bd0e916c961691ef1fadcc1fd17c3203" /> </p>
+						 	 <p class="col-md-8 col-md-offset-4">Using Random word embeddings </p> <p>
+							 <img class="col-md-8 col-md-offset-2 text-center about-image" src="https://scontent-sin1-1.xx.fbcdn.net/hphotos-xpt1/v/t34.0-12/13045425_10206342252981729_1631361327_n.png?oh=9b61c9e86d1ca27700481d3cae6252d0&oe=5713045A" />  </p>
+
+
+
+
+
+						<h3 class="lead col-md-12">Model Comparisons for the 2 databases:</h3>
+ 
+							
+							<p>
+								 <img class="col-md-8 col-md-offset-2 text-center about-image" src="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xaf1/v/t34.0-12/12988182_10206342253101732_1686111699_n.png?oh=3dd28a129f84c56b7dc0191bb1b48b9a&oe=571319E5&__gda__=1460851345_f83108940519a05f6e68fa3a260cf7f2" /> </p>
+						 	
+
+<!--
+
+						<h3 class="lead col-md-12">Threshold values for each realation:</h3>
+ 
+							
+							<p>
+								 <img class="col-md-8 col-md-offset-2 text-center about-image" src="https://scontent-sin1-1.xx.fbcdn.net/hphotos-xfa1/v/t34.0-12/12992790_10206342253141733_525602115_n.png?oh=1ccbdc9e98e04819e50ffe84cdd1ff1e&oe=5712DA7A" /> </p>
+-->
+
+
+
+
 			</div>
                     </div> <!-- #about -->
 		</div>
@@ -252,14 +290,24 @@ Image on the right is a reasoning example in FreeBase where black lines denote r
 				<li > <i class="fa fa-caret-right">&nbsp;</i> Surbhi Gupta,&nbsp;&nbsp; IIIT Hyderabad.
 				</li>
 			</ul>
+			<h2 class="lead">&nbsp;</h2>
+			<h2 class="lead">&nbsp;</h2>
 			</div>
 
-                    </div>
                     <hr>
 
                     <div class="row" id="footer">
                         <div class="col-md-12 text-center">
-                            <p class="copyright-text">Copyright &copy; 2016 </p>
+                            
+			   <p class="copyright-text"> 
+			<ul  style="padding-top:10px;"  >
+				
+				<li > TAGS :   <i class="about-image copyright-text"> IIIT-H  </i>&nbsp;<i class="about-image">  Information Retrieval and Extraction </i>&nbsp;<i class="about-image"> Major Project </i>&nbsp;<i class="about-image"> Neural Tensor Network </i>&nbsp; <br><i class="about-image"> Knowledge Base </i>&nbsp;<i class="about-image">  KB  </i> &nbsp;<i class="about-image"> Bilinear Neural Network  </i> &nbsp; <i class="about-image">  word2vec  </i> &nbsp; <i class="about-image"> Torch </i>&nbsp; <i class="about-image"> Lua </i>&nbsp; <i class="about-image"> Wordnet </i>&nbsp;<i class="about-image"> Freebase </i>&nbsp;<i class="about-image"> Entity Relation </i>&nbsp;
+				</li>
+			</ul>
+				
+			   </p>
+<p class="copyright-text">Copyright &copy; 2016 <br>Template Courtesy: <a href="http://www.templatemo.com/preview/templatemo_441_volton">Templatemo</a>  </p>
                         </div>
                     </div>
 
